@@ -20,9 +20,9 @@ const nextConfig: NextConfig = {
   },
   env: {
     NEXT_PUBLIC_GOOGLE_MAPS_API_KEY : process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-    SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
-    SENDGRID_TO: process.env.SENDGRID_TO,
-    SENDGRID_FROM: process.env.SENDGRID_FROM
+    POSTMARK_API_KEY: process.env.POSTMARK_API_KEY,
+    POSTMARK_TO: process.env.POSTMARK_TO,
+    POSTMARK_FROM: process.env.POSTMARK_FROM
   }
 };
 
